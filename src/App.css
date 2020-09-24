@@ -34,6 +34,7 @@ body {
 .details__edit {
   display: flex;
   justify-content: center;
+  width: 500px;
 }
 
 .details__edit button {
@@ -55,4 +56,31 @@ body {
 .selected {
   color: whitesmoke;
   background-color: chocolate;
+}
+
+.edit {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin-left: 20px;
+}
+
+.edit li {
+  padding: 10px 10px;
+  background-color: wheat;
+  border: none;
+}
+
+.edit button {
+  height: 35px;
+  width: 80px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: teal;
+  color: whitesmoke;
+}
+
+.edit__buttons {
+  margin: 10px auto;
 }
